@@ -3,7 +3,7 @@
 var menuOpen = false;
 
 $("#mobile-menu-button").click(function () {
-  $("header").toggleClass("mobile-nav-open");
+  $("header").toggleClass("header.mobile-nav-open");
   $("body").toggleClass("overflow-hidden");
   //change variable value to the opposite of what it current is
   menuOpen = !menuOpen;
